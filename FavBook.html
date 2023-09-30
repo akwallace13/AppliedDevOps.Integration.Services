@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Week 2 Practice Exercises
+    </title>
+    <link href="Style.css" rel="stylesheet">
+    <header>
+       <h1>Amanda's Favorite Book</h1>
+    </header>
+
+    <head>
+
+    </head>
+
+    <div class="wrapper">
+        <nav class="user">
+            <h3>Enter your Username and Password:</h3>
+            <form action="submit.php" method="Submit"> <!--ACTION=SUBMIT.PHP-->
+                Username: <input type="text" name="username"><br> <!--USERNAME FIELD-->
+                Password: <input type="password" name="password"><br> <!--PASSWORD FIELD-->
+                <input type="submit"> <!--SUBMIT BUTTON: SUBMITS THE FORM-->
+                
+                <input type="reset" name="Clear" value="Clear"/> <!--CLEAR BUTTON: CLEARS THE FORM-->
+            </form>
+        </nav>
+
+        <body>
+            <div class="main">
+                <table border="5px" cellpadding="5px" align="center" bgcolor="fuchsia">
+                    <tbody>
+                        <tr>
+                            <th scope="col"><b>Title</b></th>
+                            <th scope="col"><b>Author</b></th>
+                            <th scope="col"><b>Year</b></th>
+                            <th scope="col"><b>Links</b></th>
+                        </tr>
+
+                        <tr>
+                            <td scope="row">Three Dark Crowns</td>
+                            <td>Kendare Blake</td>
+                            <td>2016</td>
+                            <td><a href="https://a.co/d/7FnrzYp" title="Amazon" target="_blank">Get it on Amazon</a><br><a href="https://www.barnesandnoble.com/w/three-dark-crowns-kendare-blake/1123178046?ean=9780062385437" title="Barnes & Noble" target="_blank">Get it from Barnes &amp Noble</a><br><a href="https://www.goodreads.com/book/show/28374007-three-dark-crowns" title="Goodreads" target="_blank">Find out more on Goodreads</a></br><a href="https://www.kendareblake.com/writing/three-dark-crowns/" title="Authors Page" target="_blank">Find out more from the author herself</a></br></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </body>
+    
+        <div class="comment-box">
+            <p><h3>Comment Below!</h3></p>
+            <form class="comment-form">
+                <input type="text" placeholder="Name">
+                <textarea rows="5" placeholder="Enter your comment(s)."></textarea> <!--COMMENT BOX-->
+                <button method="post">Post</button> <!--METHOD=POST-->
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        Page created by Amanda Wallace
+    </footer>
+</html>
